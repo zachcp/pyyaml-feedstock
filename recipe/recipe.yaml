@@ -30,6 +30,7 @@ requirements:
 
 tests:
   - python:
+      python_version: ${{ python_min }}.*
       imports:
         - yaml
       pip_check: true
